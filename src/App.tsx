@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/ai_sample/">
       <div className="bg-gray-900 min-h-screen">
         <Routes>
           <Route path="/" element={<ProjectList />} />
